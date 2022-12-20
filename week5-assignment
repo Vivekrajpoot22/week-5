@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edureka</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-image: linear-gradient(to left,#248de4,#0c5397);
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    color: white;
+    width: 15%;
+}
+.search{
+    width: 40%;
+} 
+.search>i{
+    width: 70px;
+    padding: 10px 0 12px;
+    background-color: #f39417;
+    text-align: center;
+    cursor: pointer;
+}
+.search>input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    width: 70%;
+    font-size: 16px;
+}
+.menu{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.menu ul li:nth-child(4){
+    border-left: 2px solid white;
+}
+.menu ul li:nth-child(5){
+    background-color:rgba(255,255,255,0.2);
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+/*--------------menu-bar--------------------------*/
+.menu-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.menu-bar ul{
+    padding: 0%;
+    margin: 0;
+}
+.menu-bar ul li{
+    list-style: none;
+    float: left;
+    padding: 5px 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgb(114, 113, 112);
+    padding: 5px;
+    border-radius: 10px;
+    transition: .3s all ease-in-out;
+}
+.menu-bar ul li a:hover{
+    background-color: rgb(192, 189, 186);
+    color: white;
+}
+/*---------------------------------header----------------------------*/
+.header{
+    background:url(../image/bg.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+    </style>
+    
+</head>
+<body>
+    <div class="navbar">
+      <div id="container">
+        <div class="logo"><h1>edureka!</h1></div>
+        <div class="search"><input type="text" placeholder="Enter course category or keyword"><i class="fas fa-search" style="color:white"></i></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">coprative training</a></li>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">blogs</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">sign up</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="container">
+    <div class="menu-bar">
+            <div style="cursor:pointer;">browse  <br><span> Categories <i class="fab fa-dropdown" style="color: #3131e0;"></i></span></div>
+            <div>
+                <ul>
+                    <li><a href="#">cloud computing</a></li>
+                    <li><a href="#">DevOps</a></li>
+                    <li><a href="#">Big data</a></li>
+                    <li><a href="#">bi and visualisation</a></li>                      
+                    <li><a href="#">programs and frameworks</a></li>    
+                    <li><a href="#">higher ed</a></li>
+                    <li><a href="#">data science</a></li>
+                </ul>
+            </div>
+            <div>slidebar</div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div>
+            <h1 style="font-size:50px;color:white">edureka! free courses and certificates</h1>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
